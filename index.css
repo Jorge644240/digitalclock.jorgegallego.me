@@ -1,0 +1,41 @@
+body
+{
+    margin: 0;
+}
+section
+{
+    height: 100vh;
+    text-align: center;
+    background-image: -webkit-linear-gradient(left, #000088, #008800, #880000);
+}
+p
+{
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    margin: 0;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 550px)
+{
+    p
+    {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 400px)
+{
+    section
+    {
+        background-image: -webkit-linear-gradient(top, #000088, #008800, #880000);
+    }
+    p 
+    {
+        font-size: 2rem;
+    }
+}
