@@ -6,7 +6,7 @@ section
 {
     height: 100vh;
     text-align: center;
-    background-image: -webkit-linear-gradient(left, #000088, #008800, #880000);
+    background-color: #111111;
 }
 p
 {
@@ -30,10 +30,6 @@ p
 }
 @media screen and (max-width: 400px)
 {
-    section
-    {
-        background-image: -webkit-linear-gradient(top, #000088, #008800, #880000);
-    }
     p 
     {
         font-size: 2rem;
